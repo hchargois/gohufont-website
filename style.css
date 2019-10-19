@@ -1,0 +1,65 @@
+body {
+	background-color: #606060;
+	color: #ddd;
+	margin: auto;
+	width: 840px;
+	font-size: small;
+	font-family: Verdana, sans-serif;
+	margin-bottom: 60px;
+	margin-top: 40px;
+}
+
+#main{
+	background: url(middle.png) repeat-y scroll 0 0;
+}
+
+#top{
+	background: url(top.png) scroll 0 0;
+	height: 40px;
+}
+
+#bottom{
+	background: url(bottom.png) repeat-y scroll 0 0;
+	height: 40px;
+}
+
+#content{
+	width: 750px;
+	margin: auto;
+}
+
+#github{
+	margin: 0;
+	padding-top: 10px;
+	padding-right: 20px;
+	float: right;
+	border: 0;
+}
+	
+img{
+	margin: 8px;
+	border: 1px dotted;
+	padding: 8px;	
+}
+
+
+h1{
+	margin-bottom: 0px;
+}
+
+h2{
+	margin-bottom: 60px;
+	margin-left: 40px;
+}
+
+h3{
+	border-bottom: dotted 1px;
+}
+
+a{
+	color: #fff;
+}
+
+.hint{
+	color: #999;
+}

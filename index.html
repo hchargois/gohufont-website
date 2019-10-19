@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<title>Gohufont homepage</title>
+<meta name="date" content="2009-12-09T03:10:48+0100"/>
+<meta name="description" content="Home page of Gohufont, a monospace bitmap font"/>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+
+<script type="text/javascript">
+	function show11() {
+		document.getElementById('fox').src = '11-fox.png';
+		document.getElementById('chars').src = '11-chars.png';
+		document.getElementById('illegal').src = '11-illegal.png';
+		document.getElementById('code').src = '11-code.png';
+		document.getElementById('mail').src = '11-mail.png';
+	}
+	function show14() {
+		document.getElementById('fox').src = '14-fox.png';
+		document.getElementById('chars').src = '14-chars.png';
+		document.getElementById('illegal').src = '14-illegal.png';
+		document.getElementById('code').src = '14-code.png';
+		document.getElementById('mail').src = '14-mail.png';
+	}
+</script>
+</head>
+<body>
+
+<div id="main">
+	<a href="https://github.com/hchargois/gohufont"><img id="github" src="https://camo.githubusercontent.com/52760788cde945287fbb584134c4cbc2bc36f904/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f77686974655f6666666666662e706e67" alt="Fork me on GitHub"></img></a>
+<div id="top"></div>
+
+<div id="content">
+
+<h1>Gohufont</h1>
+
+<p>Click on the size you want to see:<br/> <img src="11px.png" style="cursor:pointer" onclick="show11()" alt=""/> <img src="14px.png" style="cursor:pointer" onclick="show14()" alt=""/></p>
+
+<h3>Introduction</h3>
+<p>
+Gohufont is a monospace bitmap font well suited for programming and terminal use.
+It is intended to be very legible and offers very discernable glyphs for all characters, including signs and symbols. 
+Here is what it looks like :
+<br/>
+<img id="fox" src="11-fox.png" alt=""/>
+<br/>
+
+The small 11 px version is perfect for laptops and netbooks as it enables to fit more text into their small screens. The 14 px is ideal for desktop screens where you sit farther away from it and the 11 px would be too small.
+</p>
+
+<h3>Common characters</h3>
+<p>Here is a map of the most common characters :
+<br/>
+<img id="chars" src="11-chars.png" alt=""/>
+</p>
+
+<h3>Features</h3>
+
+<h4>Legible</h4>
+<p>The most important goal of Gohufont is to be as legible as possible. 
+Capitals and ascenders are tall, and rounded characters are very crisp thanks to small serifs.
+</p>
+
+<h4>Non-ambiguous</h4>
+<p>I wanted to make Gohufont's glyphs very different from one another, so that there could be no ambiguity.
+The zero is dashed, l, I and 1 share no similarity, curly brackets are very distinct from parentheses, etc.
+Here is the common "Illegal1 = O0" test : <br/><img id="illegal" src="11-illegal.png" alt=""/></p>
+
+<h4>Localized</h4>
+<p>It has all of the accented characters you could wish for.</p>
+
+<h4>Unicode</h4>
+<p>Each size is available in both unicode and latin1 (iso8859).</p>
+
+<h4>Bold</h4>
+<p>There is both a normal and a bold version, even for the 11 px one!</p>
+
+<h3>Sample</h3>
+
+<h4>Code sample</h4>
+<p><img id="code" src="11-code.png" alt=""/></p>
+
+<h4>Screenshot (11px)</h4>
+<p>See it <a href="gohufont_screen.png">here</a></p>
+
+
+<h3>Download</h3>
+
+<p>Archives include both sizes of the font.</p>
+<ul>
+<li>In compressed PCF format: <a href="gohufont-2.1.tar.gz">Download</a> <span class="hint">(you want this one if you run Linux)</span></li>
+<li>In BDF format: see the <a href="https://github.com/hchargois/gohufont">GitHub repository</a> <span class="hint">(this format allows modifications)</span></li>
+<li>If you happen to use Arch Linux, there is a <a href="https://aur.archlinux.org/packages/gohufont/">gohufont</a> package in AUR</li>
+<li>There are <a href="http://cvsweb.openbsd.org/cgi-bin/cvsweb/ports/fonts/gohufont/">OpenBSD</a> and <a href="http://www.freshports.org/x11-fonts/gohufont">FreeBSD</a> ports</li>
+<li>For Mac OS (.dfont), contributed by Michael Dwyer (thanks!): <a href="gohufont.dfont">Download</a> <span class="hint">(unsupported)</span></li>
+<li>For Windows (.fon), contributed by Calvin Bienvenu (thanks!): <a href="gohufont-windows-2.0.zip">Download</a> <span class="hint">(unsupported)</span></li>
+<li>TTF format, contributed by Jack Lindsay (thanks!): <a href="GohuFont-TTF.zip">Download</a> <span class="hint">(unsupported)</span></li>
+<li>Another TTF conversion, by Guilherme Maeda (thanks!): <a href="https://github.com/koemaeda/gohufont-ttf">GitHub</a> <span class="hint">(unsupported)</span></li>
+<li>For Amiga, contributed by Rasmus Edgar (thanks!): <a href="http://aminet.net/package/text/bfont/GohuFont">Aminet</a> <span class="hint">(unsupported)</span></li>
+</ul>
+
+<h3>License</h3>
+
+<p>It is released under the <a href="http://www.wtfpl.net/about/">WTFPL</a> and thus completely free.</p>
+
+<h3>Contact</h3>
+
+<p><img id="mail" src="11-mail.png" alt=""/></p>
+
+<p>
+<a href="http://validator.w3.org/check?uri=referer"><img style="border:0;width:88px;height:31px"
+src="http://www.w3.org/Icons/valid-xhtml11" alt="Valid XHTML 1.1" height="31" width="88" /></a>
+
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+<img style="border:0;width:88px;height:31px"
+src="http://jigsaw.w3.org/css-validator/images/vcss"
+alt="Valid CSS!" />
+</a>
+</p>
+
+
+</div>
+<div id="bottom"></div>
+</div>
+
+</body>
+</html>
